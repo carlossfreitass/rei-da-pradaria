@@ -15,7 +15,7 @@ Pradaria.MainMenu.prototype = {
 		this.music.loop = true;
 		this.music.play();
 
-		this.background = this.game.add.tileSprite(0, 0, this.game.width, this.game.height, 'background', 92);
+		this.background = this.game.add.tileSprite(0, 0, window.visualViewport.width, window.visualViewport.height, 'background', 92);
 
 		// Velocidade do background
 		this.background.autoScroll(-25, 0);
