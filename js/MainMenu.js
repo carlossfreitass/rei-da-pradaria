@@ -25,9 +25,9 @@ Pradaria.MainMenu.prototype = {
         // Pontuação Máxima
         text = "Pontuação Máxima: " + this.highestScore;
         style = {
-			font: "20px Arial",
-			fill: "#000",
-			align: "center"
+			font: "20px Times",
+			fill: "#fff",
+			align: "center",
 		};
 
         this.score = this.game.add.text(this.game.width / 2, this.game.height - 50, text, style);
@@ -36,8 +36,8 @@ Pradaria.MainMenu.prototype = {
         // Instruções
         text = "Movimentação: WASD / Atacar: Botão Esquerdo do Mouse / Especial: Espaço";
         style = {
-			font: "20px Arial",
-			fill: "#000",
+			font: "20px Times",
+			fill: "#fff",
 			align: "center"
 		};
 
