@@ -15,7 +15,7 @@ Pradaria.MainMenu.prototype = {
 		this.music.loop = true;
 		this.music.play();
 
-		this.background = this.game.add.tileSprite(0, 0, window.visualViewport.width, window.visualViewport.height, 'background', 92);
+		this.background = this.game.add.tileSprite(0, 0, this.game.width, this.game.height, 'background', 92);
 
 		// Velocidade do background
 		this.background.autoScroll(-25, 0);
@@ -25,8 +25,8 @@ Pradaria.MainMenu.prototype = {
         // Pontuação Máxima
         text = "Pontuação Máxima: " + this.highestScore;
         style = {
-			font: "15px Arial",
-			fill: "#fff",
+			font: "20px Arial",
+			fill: "#000",
 			align: "center"
 		};
 
@@ -36,8 +36,8 @@ Pradaria.MainMenu.prototype = {
         // Instruções
         text = "Movimentação: WASD / Atacar: Botão Esquerdo do Mouse / Especial: Espaço";
         style = {
-			font: "15px Arial",
-			fill: "#fff",
+			font: "20px Arial",
+			fill: "#000",
 			align: "center"
 		};
 
